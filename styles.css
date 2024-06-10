@@ -1,0 +1,150 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #3c3b3f;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff9a9e;
+}
+
+/* Section styles */
+.section {
+    padding: 2rem 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+.headline {
+    font-size: 1.5rem;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.summary {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #3c3b3f;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Project card styles */
+.card {
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+}
+
+/* Specific Section Backgrounds */
+#home {
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    color: #333;
+}
+
+#about {
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb);
+}
+
+#projects {
+    background: linear-gradient(to right, #ffecd2, #fcb69f);
+}
+
+#contact {
+    background: linear-gradient(to right, #a3bded, #6991c7);
+    color: #fff;
+}
+
+#contact a {
+    color: #ff9a9e;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* About Me Section Styles */
+#about .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+#about .info div {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+
+#about .info div ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#about .info div ul li {
+    padding: 5px 0;
+    color: #333;
+}
